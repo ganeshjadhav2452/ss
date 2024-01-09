@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(244, 245, 247);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.quill-editor .ql-editor {
+  min-height: 20rem; /* Adjust the height as needed */
+}
+
+.view-btn :hover {
+  background-color: rgb(82, 205, 255) !important;
+  color: white !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+}
+
+.update-company {
+  margin-top: 100rem !important;
+}
+.company-logo {
+  height: 4rem !important;
+  width: 4rem !important;
+}
